@@ -12,6 +12,7 @@
 - `limit` (integer, opsional) - Jumlah item per halaman (default: 10)
 - `name` (string, opsional) - Filter berdasarkan nama produk
 - `categories` (string, opsional) - Filter berdasarkan kategori
+- `price_type` (string, opsional) - Filter berdasarkan tipe bayar (`fixed`,`range`,`free`)
 - `orderby` (string, opsional) - Urutan data (`buyer` untuk jumlah pembeli, default `created_at` DESC)
 
 **Response:**
