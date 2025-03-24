@@ -110,17 +110,26 @@
 ```json
 {
     "id": 1,
-    "name": "Produk A",
-    "description": "Deskripsi Produk A",
-    "categories": "Elektronik",
-    "buyer_count": 100,
-    "image_preview": "https://example.com/images/product_a.jpg",
+    "name": "product example 1",
+    "tags": [
+        "pohon",
+        "dahan",
+        "tanah"
+    ],
+    "categories": [
+        "aesthetic",
+        "city"
+    ],
+    "description": "description example 1",
+    "buyer_count": "0",
+    "image_preview": "https://testing.pustakatropis.com/image_preview%20example%201",
     "price_type": "fixed",
-    "price_start": null,
-    "price_end": null,
-    "price_fix": 100000,
-    "created_at": "2024-01-01 12:00:00",
-    "updated_at": "2024-01-05 15:00:00"
+    "price_start": 1000,
+    "price_end": 0,
+    "price_fix": 0,
+    "created_at": "2025-03-24 17:23:34",
+    "updated_at": null,
+    "rating": 0
 }
 ```
 
