@@ -31,8 +31,8 @@ Endpoint ini digunakan untuk menambahkan produk baru.
 | price_start | int    | Tidak | Harga awal (jika `price_type` adalah `range`) |
 | price_end   | int    | Tidak | Harga akhir (jika `price_type` adalah `range`) |
 | price_fix   | int    | Tidak | Harga tetap (jika `price_type` adalah `fixed`) |
-| tags   | array    | Ya | List Category dengan array|
-| tags   | array    | Ya | List Category dengan array|
+| tags   | array    | Ya | List Tags dengan array|
+| category   | array    | Ya | List Category dengan array|
 | gambar      | file   | Ya   | Gambar produk dalam format JPG, JPEG, PNG, GIF |
 
 ## Contoh Request
