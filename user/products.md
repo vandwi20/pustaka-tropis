@@ -20,23 +20,78 @@
 {
     "pagination": {
         "prev": null,
-        "next": 2,
+        "next": null,
         "list_prev": [],
-        "list_next": [2, 3]
+        "list_next": []
     },
     "current_page": 1,
-    "total_pages": 5,
-    "item_found": 50,
-    "curent_item": 10,
+    "total_pages": 1,
+    "item_found": 3,
+    "curent_item": 3,
     "limit": 10,
     "data": [
         {
             "id": 1,
-            "name": "Produk A",
-            "buyer_count": 100,
-            "categories": "Elektronik",
-            "image_preview": "https://example.com/images/product_a.jpg",
-            "created_at": "2024-01-01 12:00:00"
+            "name": "product example 1",
+            "tags": [
+                "pohon",
+                "dahan",
+                "tanah"
+            ],
+            "categories": [
+                "aesthetic",
+                "city"
+            ],
+            "buyer_count": "0",
+            "price_type": "fixed",
+            "price_start": 1000,
+            "price_end": 0,
+            "price_fix": 0,
+            "image_preview": "https://testing.pustakatropis.com/image_preview%20example%201",
+            "created_at": "2025-03-24 17:23:34",
+            "rating": 0
+        },
+        {
+            "id": 2,
+            "name": "product example 2",
+            "tags": [
+                "pohon",
+                "dahan",
+                "tanah"
+            ],
+            "categories": [
+                "aesthetic",
+                "city"
+            ],
+            "buyer_count": "0",
+            "price_type": "range",
+            "price_start": 1000,
+            "price_end": 0,
+            "price_fix": 0,
+            "image_preview": "https://testing.pustakatropis.com/image_preview%20example%201",
+            "created_at": "2025-03-24 17:23:34",
+            "rating": 0
+        },
+        {
+            "id": 3,
+            "name": "product example 3",
+            "tags": [
+                "pohon",
+                "dahan",
+                "ranting"
+            ],
+            "categories": [
+                "aesthetic",
+                "nature"
+            ],
+            "buyer_count": "0",
+            "price_type": "free",
+            "price_start": 1000,
+            "price_end": 0,
+            "price_fix": 0,
+            "image_preview": "https://testing.pustakatropis.com/image_preview%20example%201",
+            "created_at": "2025-03-24 17:23:34",
+            "rating": 0
         }
     ]
 }
